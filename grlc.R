@@ -27,14 +27,14 @@ sparql.grlc <- function(query, number) {
 }
 
 # Example
-hisco.queries <- sum.grlc("CLARIAH/wp4-queries-hisco")
-hisco.queries
 sum.grlc("albertmeronyo/lodapi")
 
 # not run
 # sum.grlc("CLARIAH/wp4-queries") #takes forever
 
 # retrieve results from sparql query
-sparql.grlc(hisco.queries, 2) # 2 being second of the sparql queries
+hisq <- sum.grlc("CLARIAH/wp4-queries-hisco")
+hisq
+sparql.grlc(hisq, 2) # 2 being second of the sparql queries
 
 # EOF
