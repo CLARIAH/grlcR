@@ -2,6 +2,6 @@
 
 export(repo.query)
 export(repo.summary)
-import("httr::GET")
-import("httr::content")
+importFrom(httr,GET)
+importFrom(httr,content)
 importFrom(jsonlite,fromJSON)
