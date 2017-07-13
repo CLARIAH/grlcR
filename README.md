@@ -5,6 +5,7 @@ To install from R, run:
 
 ```
 install_github("CLARIAH/grlcR", subdir = "grlcR")
+library(grlcR)
 ```
 
 ```
