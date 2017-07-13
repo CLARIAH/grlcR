@@ -3,6 +3,7 @@
 #' This function retrieves data from the grlc-repo sparql query
 #' @param object from repo summary; object number
 #' @keywords grlc
+#' @importFrom jsonlite fromJSON
 #' @export
 #' @examples
 #' repo.query()
