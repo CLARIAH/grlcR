@@ -3,8 +3,8 @@
 #' This function retrieves the available sparql queries from a grlc repo
 #' @param a grlc repo owner/project
 #' @keywords grlc
-#' @import httr:content
-#' @import httr:GET
+#' @import httr::content
+#' @import httr::GET
 #' @export
 #' @examples
 #' repo.summary()
