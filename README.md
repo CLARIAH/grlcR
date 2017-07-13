@@ -19,5 +19,5 @@ repo.summary("albertmeronyo/lodapi")
 # retrieve results from sparql query
 hisq <- repo.summary("CLARIAH/wp4-queries-hisco")
 hisq
-repo.query(hisq, 2) # 2 being second of the sparql queries
+repo.query(hisq, 2) # 2 being the second of the sparql queries in this repo
 ```
