@@ -1,0 +1,10 @@
+Package: grlcR
+Title: Retrieve SPARQL queries and results from grlc repositories
+Version: 0.0.0.9000
+Authors@R: person("Richard", "Zijdeman", email = "richard.zijdeman@iisg.nl", role = c("aut", "cre"))
+Description: Retrieve SPARQL queries and results from grlc repositories.
+Depends: R (>= 3.4.1)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
