@@ -4,6 +4,8 @@ R package to retrieve sparql queries stored in grlc format
 To install from R, run:
 
 ```
+# install.packages("devtools") # uncomment if not installed yet
+library(devtools)
 install_github("CLARIAH/grlcR", subdir = "grlcR")
 library(grlcR)
 ```
