@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Richard", "Zijdeman", email = "richard.zijdeman@iisg.nl", role = c("aut", "cre"))
 Description: Retrieve SPARQL queries and results from grlc repositories.
 Depends: R(>= 3.0.0)
-Imports: jsonlite::fromJson, httr:GET, httr:content
+Imports: jsonlite::fromJson, httr::GET, httr::content
 Suggests: jsonlite
 License: MIT
 Encoding: UTF-8
