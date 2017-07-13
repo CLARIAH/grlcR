@@ -10,7 +10,7 @@
 repo.summary <- function(git) {
     base_url <- paste0("http://grlc.io/api/", git)
     spec  <- paste0(base_url, "/spec")
-    cont <- content(GET(url = spec))
+    cont <- httr::content(httr::GET(url = spec))
     len  <- as.numeric(length(cont$paths))
     #unlist(lapply(1:3, function(x) cont$paths[[x]]$get$summary))
     query_names <- names(cont$paths)

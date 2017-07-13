@@ -8,8 +8,8 @@
 #' repo.query()
 #' 
 repo.query <- function(query, number) {
-    require(jsonlite)
+    # load libraries
     query_url <- paste0(query$url, '/', query$queries[number],'.json')
-    df <- fromJSON(query_url)
+    df <- jsonlite::fromJSON(query_url)
     df$results$bindings
 }
