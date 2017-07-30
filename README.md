@@ -19,5 +19,10 @@ repo_summary("albertmeronyo/lodapi")
 # retrieve results from sparql query
 hisq <- repo_summary("CLARIAH/wp4-queries-hisco")
 hisq
-repo.query(hisq, 2) # 2 being the second of the sparql queries in this repo
+df <- repo_query(hisq, 2) # 2 being the second of the sparql queries in this repo
+str(df) # notice that df exits of 2 data.frames
+
+# extract values from a uri (e.g. retrieve 'value' from 'http(s)://.../..../value')
+df$hisco$code <- sapply(df$hisco$value, uri_value)
+df$hisco
 ```
