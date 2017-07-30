@@ -2,6 +2,7 @@
 #'
 #' @param a uri
 #' @return The value after the last '/' of a \uri_value{x}
+#' @importFrom stringr str_sub str_extract str_replace
 #' @examples
 #' uri_value("http://example.com/myvalues/1234")
 #' uri_value("http://example.com/myvalues/bookstore/") # warns for trailing slash
