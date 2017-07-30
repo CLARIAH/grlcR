@@ -6,9 +6,9 @@
 #' @importFrom jsonlite fromJSON
 #' @export
 #' @examples
-#' repo.query()
+#' repo_query()
 #' 
-repo.query <- function(query, number) {
+repo_query <- function(query, number) {
     # load libraries
     query_url <- paste0(query$url, '/', query$queries[number],'.json')
     df <- jsonlite::fromJSON(query_url)

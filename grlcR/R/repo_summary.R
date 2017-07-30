@@ -7,9 +7,9 @@
 #' @importFrom httr GET
 #' @export
 #' @examples
-#' repo.summary()
+#' repo_summary()
 #' 
-repo.summary <- function(git) {
+repo_summary <- function(git) {
     base_url <- paste0("http://grlc.io/api/", git)
     spec  <- paste0(base_url, "/spec")
     cont <- httr::content(httr::GET(url = spec))
