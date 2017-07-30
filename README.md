@@ -11,13 +11,13 @@ library(grlcR)
 
 ```
 # Examples
-repo.summary("albertmeronyo/lodapi")
+repo_summary("albertmeronyo/lodapi")
 
 # not run
-# repo.summary("CLARIAH/wp4-queries") #takes forever
+# repo_summary("CLARIAH/wp4-queries") #takes forever
 
 # retrieve results from sparql query
-hisq <- repo.summary("CLARIAH/wp4-queries-hisco")
+hisq <- repo_summary("CLARIAH/wp4-queries-hisco")
 hisq
 repo.query(hisq, 2) # 2 being the second of the sparql queries in this repo
 ```
